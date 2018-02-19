@@ -1,7 +1,7 @@
 import sys
 import numpy
 
-
+import PyPluMA
 
 class PCL2CSVPlugin:
    def input(self, filename):
@@ -32,7 +32,7 @@ class PCL2CSVPlugin:
    def output(self, filename):
       #csvfilename = self.myfile[0:len(self.myfile)-3] + "csv"
       csvfile = open(filename, 'w')
-      print "Writing CSV file ",
+      PyPluMA.log("Writing CSV file ")
 
       # First Line
       csvfile.write("\"\",")
