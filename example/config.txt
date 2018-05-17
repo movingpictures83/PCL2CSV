@@ -1,0 +1,2 @@
+Prefix plugins/PCL2CSV/example/
+Plugin PCL2CSV inputfile Yeast.pcl outputfile Yeast.csv
