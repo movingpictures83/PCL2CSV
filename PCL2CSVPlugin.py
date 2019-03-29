@@ -17,7 +17,7 @@ class PCL2CSVPlugin:
       for line in filestuff:
          contents = line.split()
          self.genes.append(contents[0])
-	 pos = 0
+         pos = 0
          for j in range(3, len(contents)):
             if (first):
                self.abundances.append([])
