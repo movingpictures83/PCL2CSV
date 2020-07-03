@@ -2,7 +2,8 @@
 # Language: Python
 # Input: PCL (file to convert)
 # Output: CSV (converted file)
-# Tested with: PluMA 1.0, Python 3.6
+# Tested with: PluMA 1.1, Python 3.6
+# Dependency: numpy==1.16.0
 
 PluMA plugin to convert PCL (Stanford cDNA file format) to CSV.
 The input PCL file is assumed to be a table with rows corresponding to members of a community
